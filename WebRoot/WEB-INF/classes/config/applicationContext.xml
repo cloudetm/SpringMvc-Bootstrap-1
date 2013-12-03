@@ -21,6 +21,7 @@
 		<property name="maxStatements" value="0" />
 		<property name="acquireIncrement" value="10" />
     </bean>
+    
 	<bean id="sessionFactory"
 		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
 		<property name="dataSource">
@@ -45,7 +46,9 @@
     
 	<tx:annotation-driven transaction-manager="transactionManager" />
 	 
-	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" /> 
+	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" />   
+	
+	<bean id="springContextHolder" class="com.rocky.util.SpringContextHolder" />
 	
 	<import resource="applicationContext-common.xml"/>
 	<import resource="applicationContext-dao.xml"/> 
