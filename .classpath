@@ -30,7 +30,7 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-aspects-3.2.4.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-beans-3.2.4.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-context-3.2.4.RELEASE.jar" sourcepath="D:/Rocky/Project/5.Java/SSH/spring-framework-3.2.4.RELEASE/libs/spring-context-3.2.4.RELEASE-sources.jar"/>
-	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-core-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-core-3.2.4.RELEASE.jar" sourcepath="D:/Rocky/Project/5.Java/SSH/spring-framework-3.2.4.RELEASE/libs/spring-core-3.2.4.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-expression-3.2.4.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-instrument-3.2.4.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-instrument-tomcat-3.2.4.RELEASE.jar"/>

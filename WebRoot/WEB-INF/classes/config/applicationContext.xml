@@ -50,6 +50,8 @@
 	
 	<bean id="springContextHolder" class="com.rocky.util.SpringContextHolder" />
 	
+	<bean class="com.rocky.util.HibernateDao" />
+	
 	<import resource="applicationContext-common.xml"/>
 	<import resource="applicationContext-dao.xml"/> 
 	<import resource="applicationContext-service.xml"/>
