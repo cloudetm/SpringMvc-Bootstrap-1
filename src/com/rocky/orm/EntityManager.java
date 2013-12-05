@@ -31,7 +31,6 @@ public abstract class EntityManager<T, PK extends Serializable> {
 	 * eg.
 	 * public class UserManager extends EntityManager<User, Long>
 	 */
-	@SuppressWarnings("unchecked")
 	public EntityManager() {
 		this.entityClass = ReflectionUtils.getSuperClassGenricType(getClass());
 	}
