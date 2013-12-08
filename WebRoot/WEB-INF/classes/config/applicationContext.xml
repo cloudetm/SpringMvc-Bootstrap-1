@@ -35,7 +35,7 @@
 			<props>
 				<prop key="hibernate.connection.charset">UTF-8</prop>
                 <prop key="hibernate.show_sql">true</prop>
-				<prop key="hibernate.dialect">org.hibernate.dialect.Oracle10Dialect</prop>
+				<prop key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</prop>
 			</props>
 		</property>
 	</bean>
@@ -52,8 +52,8 @@
 	
 	<bean class="com.rocky.orm.HibernateDao" />
 	
-	<import resource="applicationContext-common.xml"/>
 	<import resource="applicationContext-dao.xml"/> 
 	<import resource="applicationContext-service.xml"/>
 	<import resource="applicationContext-servlet.xml"/>
+	<import resource="applicationContext-common.xml"/>
 </beans>

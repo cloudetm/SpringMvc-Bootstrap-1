@@ -1,9 +1,19 @@
 package com.rocky.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="USERINFO")
 public class UserInfo {
-	public int ID;
-	public String Name;
-	public String Password;
+	@Id
+	private int ID;
+	@Column
+	private String Name;
+	@Column
+	private String Password;
 	
 	public int getID() {
 		return ID;
