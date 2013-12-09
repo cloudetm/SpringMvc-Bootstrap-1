@@ -8,7 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.rocky.dao.interfaces.IUserDao;
+import com.rocky.service.interfaces.IUserService;
 
 @Controller
 @RequestMapping("/user")
@@ -17,10 +17,10 @@ public class UserController {
 	protected Logger logger = LoggerFactory.getLogger(getClass());
 
 	@Autowired
-	IUserDao userDao;
+	private IUserService userService;
 
 	@RequestMapping(value = "/count", method = RequestMethod.GET)
 	public void UserCount(Model model) {
-		model.addAttribute("UserCount", userDao.GetCount());
+		model.addAttribute("UserCount", userService.GetCount());
 	}
 }
