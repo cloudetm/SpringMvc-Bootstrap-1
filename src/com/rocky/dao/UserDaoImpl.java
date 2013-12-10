@@ -12,6 +12,7 @@ import com.rocky.orm.DefaultEntityManager;
 
 @Repository
 public class UserDaoImpl extends DefaultEntityManager<UserInfo,String> implements IUserDao {
+	
 	@Resource 
 	SessionFactory sessionFactory;
 	
