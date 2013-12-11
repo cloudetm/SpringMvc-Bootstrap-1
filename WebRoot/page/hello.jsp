@@ -8,6 +8,6 @@
 </head>
 <body>
 	${msg}
-	<img src="images/3D.png" />
+	<img src="resources/images/3D.png" />
 </body>
 </html>

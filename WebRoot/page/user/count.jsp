@@ -13,6 +13,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <body>
     <base href="<%=basePath%>"/>
 	${UserCount}
-	<img src="images/3D.png" />
+	<img src="resources/images/3D.png" />
 </body>
 </html>

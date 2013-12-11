@@ -1,5 +1,5 @@
 package com.rocky.dao.interfaces;
 
-public interface IUserDao extends IBaseDao {
+public interface IUserDao<T> extends IBaseDao<T> {
 
 }

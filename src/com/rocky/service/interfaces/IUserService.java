@@ -1,4 +1,7 @@
 package com.rocky.service.interfaces;
 
-public interface IUserService extends IBaseService {
+import org.springframework.beans.factory.annotation.Qualifier;
+
+@Qualifier(value="userService")
+public interface IUserService<T> extends IBaseService<T> {
 }
